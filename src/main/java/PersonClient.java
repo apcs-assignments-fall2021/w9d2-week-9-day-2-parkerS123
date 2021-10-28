@@ -3,5 +3,9 @@ public class PersonClient {
         // Write some very very basic testing code here
         // Create a Person and then call each of the
         // methods on the Person
+
+        Person jeff = new Person("jeff", "wilson");
+        System.out.println(jeff.toString());
+
     }
 }
